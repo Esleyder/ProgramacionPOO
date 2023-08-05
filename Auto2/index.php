@@ -1,11 +1,7 @@
 <?php
 include_once("Auto.php");
 
-$a1=new Auto();
-
-$a1->setPlaca("A123");
-$a1->setColor("Amarillo");
-$a1->setModelo("2023");
+$a1=new Auto("A123","Amarillo","2023");
 
 echo $a1->getPlaca();
 echo "<br>";
